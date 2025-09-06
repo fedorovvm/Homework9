@@ -27,12 +27,12 @@ public class Main {
         System.out.println("Минимальная сумма трат за неделю составила " +minExpenses+ " рублей. Максимальная сумма трат за неделю составила "+maxExpenses+" рублей.");
         //Task 3.
         System.out.println("Задание 3.");
-        float  averageSum=sum/expenses.length;
+        double averageSum=(double)sum/expenses.length;
         System.out.println("Средняя сумма трат за месяц составила "+averageSum+" рублей.");
         //Task 4.
         System.out.println("Задание 4.");
         char[] reverseFullName = { 'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
-        for (int i = (reverseFullName.length-1); i >= 0; i--) {
+        for (int i = reverseFullName.length-1; i >= 0; i--) {
             System.out.print(reverseFullName[i]);
         }
     }
